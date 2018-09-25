@@ -1,0 +1,126 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Gustavo\Desktop\MIPS_Multiciclo\simulation\modelsim
+vlpm_constant0
+Io5KNQae8<mOBK>?S2R5cO1
+VXAco0Pb8MB;MYX1iTGNGd1
+Z1 dC:\Users\Gustavo\Desktop\MIPS_Multiciclo\simulation\modelsim
+w1479204909
+8C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant0.v
+FC:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant0.v
+L0 39
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Gustavo/Desktop/MIPS_Multiciclo -O0
+!i10b 1
+!s100 MgZd]WMDn@GjY5^clR9ak2
+!s85 0
+!s108 1479225912.678000
+!s107 C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Desktop/MIPS_Multiciclo|C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant0.v|
+!s101 -O0
+vlpm_constant1
+I]^E>He78ckDM>iZiJH7D72
+VMMD>I3MZY`77@j<lQCD8f0
+R1
+Z5 w1479204377
+Z6 8C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant1.v
+Z7 FC:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant1.v
+L0 61
+R2
+r1
+31
+Z8 !s108 1479225912.943000
+Z9 !s107 C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant1.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Desktop/MIPS_Multiciclo|C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant1.v|
+R3
+R4
+!i10b 1
+!s100 WkdfoJ9UMIHJBIBfG>mzV0
+!s85 0
+!s101 -O0
+vlpm_constant1_lpm_constant_v09
+IPc@:XQkI>e9cA?3e]ObgI1
+VVC`bJ>7lBJm;PI4>=mG0W2
+R1
+R5
+R6
+R7
+L0 46
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 <7iTl^N2N<bmL][^=BQ_C0
+!s85 0
+!s101 -O0
+vlpm_constant2
+IgE^oXAIKZB]A6L1?6_51B2
+Vl_O65KaQ9`Gd?V8WXWMh>3
+R1
+Z11 w1479212210
+Z12 8C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant2.v
+Z13 FC:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant2.v
+L0 61
+R2
+r1
+31
+Z14 !s108 1479225913.243000
+Z15 !s107 C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant2.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Desktop/MIPS_Multiciclo|C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant2.v|
+R3
+R4
+!i10b 1
+!s100 UZV6<LhAzNj2SahZ@EXU^0
+!s85 0
+!s101 -O0
+vlpm_constant2_lpm_constant_c19
+I9ek[R7aQPUNXmA1WbBfk02
+VW:NP1Y<D5oF_EkmF;Yak63
+R1
+R11
+R12
+R13
+L0 46
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+!i10b 1
+!s100 :WN58]h^cfG]QGE8inUS;1
+!s85 0
+!s101 -O0
+vRAM
+!i10b 1
+!s100 5X^B;[D83MK>ooIT2?PZ41
+Ie1N`;ChFPn`CcnadBYBHa0
+ViB:5RFoXSC>L[Mcho5L082
+R1
+w1479223078
+8C:/Users/Gustavo/Desktop/MIPS_Multiciclo/RAM.v
+FC:/Users/Gustavo/Desktop/MIPS_Multiciclo/RAM.v
+L0 39
+R2
+r1
+!s85 0
+31
+!s108 1479225913.541000
+!s107 C:/Users/Gustavo/Desktop/MIPS_Multiciclo/RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Gustavo/Desktop/MIPS_Multiciclo|C:/Users/Gustavo/Desktop/MIPS_Multiciclo/RAM.v|
+!s101 -O0
+R3
+R4
+n@r@a@m

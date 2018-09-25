@@ -1,0 +1,39 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MIPS_Multiciclo_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Desktop/MIPS_Multiciclo {C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant0.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lpm_constant0
+# 
+# Top level modules:
+# 	lpm_constant0
+# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Desktop/MIPS_Multiciclo {C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lpm_constant1_lpm_constant_v09
+# -- Compiling module lpm_constant1
+# 
+# Top level modules:
+# 	lpm_constant1
+# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Desktop/MIPS_Multiciclo {C:/Users/Gustavo/Desktop/MIPS_Multiciclo/lpm_constant2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lpm_constant2_lpm_constant_c19
+# -- Compiling module lpm_constant2
+# 
+# Top level modules:
+# 	lpm_constant2
+# vlog -vlog01compat -work work +incdir+C:/Users/Gustavo/Desktop/MIPS_Multiciclo {C:/Users/Gustavo/Desktop/MIPS_Multiciclo/RAM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# 

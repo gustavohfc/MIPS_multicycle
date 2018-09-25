@@ -1,0 +1,316 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 384 672)
+	(text "Banco_de_registradores" (rect 5 0 146 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 592 25 604)(font "Arial" ))
+	(port
+		(pt 0 128)
+		(input)
+		(text "Dados_escrita[31..0]" (rect 0 0 118 14)(font "Arial" (font_size 8)))
+		(text "Dados_escrita[31..0]" (rect 21 123 139 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 21 43 50 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "RST" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "RST" (rect 21 59 44 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "Registrador_leitura1[4..0]" (rect 0 0 142 14)(font "Arial" (font_size 8)))
+		(text "Registrador_leitura1[4..0]" (rect 21 75 163 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "Registrador_escrita[4..0]" (rect 0 0 140 14)(font "Arial" (font_size 8)))
+		(text "Registrador_escrita[4..0]" (rect 21 107 161 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "EscreveReg" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "EscreveReg" (rect 21 27 90 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "Registrador_leitura2[4..0]" (rect 0 0 142 14)(font "Arial" (font_size 8)))
+		(text "Registrador_leitura2[4..0]" (rect 21 91 163 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 320 32)
+		(output)
+		(text "Dados_leitura1[31..0]" (rect 0 0 120 14)(font "Arial" (font_size 8)))
+		(text "Dados_leitura1[31..0]" (rect 179 27 299 41)(font "Arial" (font_size 8)))
+		(line (pt 320 32)(pt 304 32)(line_width 3))
+	)
+	(port
+		(pt 320 48)
+		(output)
+		(text "Dados_leitura2[31..0]" (rect 0 0 120 14)(font "Arial" (font_size 8)))
+		(text "Dados_leitura2[31..0]" (rect 179 43 299 57)(font "Arial" (font_size 8)))
+		(line (pt 320 48)(pt 304 48)(line_width 3))
+	)
+	(port
+		(pt 320 64)
+		(output)
+		(text "reg0[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg0[31..0]" (rect 238 59 299 73)(font "Arial" (font_size 8)))
+		(line (pt 320 64)(pt 304 64)(line_width 3))
+	)
+	(port
+		(pt 320 80)
+		(output)
+		(text "reg1[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg1[31..0]" (rect 238 75 299 89)(font "Arial" (font_size 8)))
+		(line (pt 320 80)(pt 304 80)(line_width 3))
+	)
+	(port
+		(pt 320 96)
+		(output)
+		(text "reg2[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg2[31..0]" (rect 238 91 299 105)(font "Arial" (font_size 8)))
+		(line (pt 320 96)(pt 304 96)(line_width 3))
+	)
+	(port
+		(pt 320 112)
+		(output)
+		(text "reg3[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg3[31..0]" (rect 238 107 299 121)(font "Arial" (font_size 8)))
+		(line (pt 320 112)(pt 304 112)(line_width 3))
+	)
+	(port
+		(pt 320 128)
+		(output)
+		(text "reg4[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg4[31..0]" (rect 238 123 299 137)(font "Arial" (font_size 8)))
+		(line (pt 320 128)(pt 304 128)(line_width 3))
+	)
+	(port
+		(pt 320 144)
+		(output)
+		(text "reg5[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg5[31..0]" (rect 238 139 299 153)(font "Arial" (font_size 8)))
+		(line (pt 320 144)(pt 304 144)(line_width 3))
+	)
+	(port
+		(pt 320 160)
+		(output)
+		(text "reg6[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg6[31..0]" (rect 238 155 299 169)(font "Arial" (font_size 8)))
+		(line (pt 320 160)(pt 304 160)(line_width 3))
+	)
+	(port
+		(pt 320 176)
+		(output)
+		(text "reg7[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg7[31..0]" (rect 238 171 299 185)(font "Arial" (font_size 8)))
+		(line (pt 320 176)(pt 304 176)(line_width 3))
+	)
+	(port
+		(pt 320 192)
+		(output)
+		(text "reg8[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg8[31..0]" (rect 238 187 299 201)(font "Arial" (font_size 8)))
+		(line (pt 320 192)(pt 304 192)(line_width 3))
+	)
+	(port
+		(pt 320 208)
+		(output)
+		(text "reg9[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "reg9[31..0]" (rect 238 203 299 217)(font "Arial" (font_size 8)))
+		(line (pt 320 208)(pt 304 208)(line_width 3))
+	)
+	(port
+		(pt 320 224)
+		(output)
+		(text "reg_10[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_10[31..0]" (rect 224 219 299 233)(font "Arial" (font_size 8)))
+		(line (pt 320 224)(pt 304 224)(line_width 3))
+	)
+	(port
+		(pt 320 240)
+		(output)
+		(text "reg_11[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_11[31..0]" (rect 224 235 299 249)(font "Arial" (font_size 8)))
+		(line (pt 320 240)(pt 304 240)(line_width 3))
+	)
+	(port
+		(pt 320 256)
+		(output)
+		(text "reg_12[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_12[31..0]" (rect 224 251 299 265)(font "Arial" (font_size 8)))
+		(line (pt 320 256)(pt 304 256)(line_width 3))
+	)
+	(port
+		(pt 320 272)
+		(output)
+		(text "reg_13[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_13[31..0]" (rect 224 267 299 281)(font "Arial" (font_size 8)))
+		(line (pt 320 272)(pt 304 272)(line_width 3))
+	)
+	(port
+		(pt 320 288)
+		(output)
+		(text "reg_14[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_14[31..0]" (rect 224 283 299 297)(font "Arial" (font_size 8)))
+		(line (pt 320 288)(pt 304 288)(line_width 3))
+	)
+	(port
+		(pt 320 304)
+		(output)
+		(text "reg_15[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_15[31..0]" (rect 224 299 299 313)(font "Arial" (font_size 8)))
+		(line (pt 320 304)(pt 304 304)(line_width 3))
+	)
+	(port
+		(pt 320 320)
+		(output)
+		(text "reg_16[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_16[31..0]" (rect 224 315 299 329)(font "Arial" (font_size 8)))
+		(line (pt 320 320)(pt 304 320)(line_width 3))
+	)
+	(port
+		(pt 320 336)
+		(output)
+		(text "reg_17[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_17[31..0]" (rect 224 331 299 345)(font "Arial" (font_size 8)))
+		(line (pt 320 336)(pt 304 336)(line_width 3))
+	)
+	(port
+		(pt 320 352)
+		(output)
+		(text "reg_18[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_18[31..0]" (rect 224 347 299 361)(font "Arial" (font_size 8)))
+		(line (pt 320 352)(pt 304 352)(line_width 3))
+	)
+	(port
+		(pt 320 368)
+		(output)
+		(text "reg_19[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_19[31..0]" (rect 224 363 299 377)(font "Arial" (font_size 8)))
+		(line (pt 320 368)(pt 304 368)(line_width 3))
+	)
+	(port
+		(pt 320 384)
+		(output)
+		(text "reg_20[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_20[31..0]" (rect 224 379 299 393)(font "Arial" (font_size 8)))
+		(line (pt 320 384)(pt 304 384)(line_width 3))
+	)
+	(port
+		(pt 320 400)
+		(output)
+		(text "reg_21[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_21[31..0]" (rect 224 395 299 409)(font "Arial" (font_size 8)))
+		(line (pt 320 400)(pt 304 400)(line_width 3))
+	)
+	(port
+		(pt 320 416)
+		(output)
+		(text "reg_22[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_22[31..0]" (rect 224 411 299 425)(font "Arial" (font_size 8)))
+		(line (pt 320 416)(pt 304 416)(line_width 3))
+	)
+	(port
+		(pt 320 432)
+		(output)
+		(text "reg_23[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_23[31..0]" (rect 224 427 299 441)(font "Arial" (font_size 8)))
+		(line (pt 320 432)(pt 304 432)(line_width 3))
+	)
+	(port
+		(pt 320 448)
+		(output)
+		(text "reg_24[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_24[31..0]" (rect 224 443 299 457)(font "Arial" (font_size 8)))
+		(line (pt 320 448)(pt 304 448)(line_width 3))
+	)
+	(port
+		(pt 320 464)
+		(output)
+		(text "reg_25[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_25[31..0]" (rect 224 459 299 473)(font "Arial" (font_size 8)))
+		(line (pt 320 464)(pt 304 464)(line_width 3))
+	)
+	(port
+		(pt 320 480)
+		(output)
+		(text "reg_26[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_26[31..0]" (rect 224 475 299 489)(font "Arial" (font_size 8)))
+		(line (pt 320 480)(pt 304 480)(line_width 3))
+	)
+	(port
+		(pt 320 496)
+		(output)
+		(text "reg_27[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_27[31..0]" (rect 224 491 299 505)(font "Arial" (font_size 8)))
+		(line (pt 320 496)(pt 304 496)(line_width 3))
+	)
+	(port
+		(pt 320 512)
+		(output)
+		(text "reg_28[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_28[31..0]" (rect 224 507 299 521)(font "Arial" (font_size 8)))
+		(line (pt 320 512)(pt 304 512)(line_width 3))
+	)
+	(port
+		(pt 320 528)
+		(output)
+		(text "reg_29[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_29[31..0]" (rect 224 523 299 537)(font "Arial" (font_size 8)))
+		(line (pt 320 528)(pt 304 528)(line_width 3))
+	)
+	(port
+		(pt 320 544)
+		(output)
+		(text "reg_30[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_30[31..0]" (rect 224 539 299 553)(font "Arial" (font_size 8)))
+		(line (pt 320 544)(pt 304 544)(line_width 3))
+	)
+	(port
+		(pt 320 560)
+		(output)
+		(text "reg_31[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "reg_31[31..0]" (rect 224 555 299 569)(font "Arial" (font_size 8)))
+		(line (pt 320 560)(pt 304 560)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 304 592))
+	)
+)

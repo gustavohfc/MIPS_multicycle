@@ -1,0 +1,100 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 18:18:24  November 02, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		MIPS_Multiciclo_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE AUTO
+set_global_assignment -name TOP_LEVEL_ENTITY MIPS_Multiciclo
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:18:24  NOVEMBER 02, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name SDC_FILE MIPS_Multiciclo.out.sdc
+set_global_assignment -name BDF_FILE detecta_overflow.bdf
+set_global_assignment -name BDF_FILE Ula32bits.bdf
+set_global_assignment -name BDF_FILE ula1bit.bdf
+set_global_assignment -name BDF_FILE somador1bit.bdf
+set_global_assignment -name BDF_FILE Mux_4_1bit.bdf
+set_global_assignment -name BDF_FILE Mux_2_1bit.bdf
+set_global_assignment -name BDF_FILE Mux_32.bdf
+set_global_assignment -name BDF_FILE Mux_16.bdf
+set_global_assignment -name BDF_FILE Mux_8.bdf
+set_global_assignment -name BDF_FILE MIPS_Multiciclo.bdf
+set_global_assignment -name BDF_FILE word_register.bdf
+set_global_assignment -name BDF_FILE Mux_2.bdf
+set_global_assignment -name BDF_FILE Memoria.bdf
+set_global_assignment -name BDF_FILE Banco_de_registradores.bdf
+set_global_assignment -name BDF_FILE Mux_4.bdf
+set_global_assignment -name BDF_FILE Controle_ALU.bdf
+set_global_assignment -name BDF_FILE Controle.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE teste_MIPS_Multiciclo.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE teste_word_register.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE teste_MUX.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE teste_Memoria.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE teste_Banco_de_registradores.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE teste_ALU.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE teste_Controle_ALU.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE teste_Controle.vwf
+set_global_assignment -name BDF_FILE Decoder_5_to_32.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE teste_Decoder_5_to_32.vwf
+set_global_assignment -name BDF_FILE Instruction_register.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name BDF_FILE Extensao_de_sinal.bdf
+set_global_assignment -name BDF_FILE Coprocessador.bdf
+set_global_assignment -name QIP_FILE lpm_mult0.qip
+set_global_assignment -name BDF_FILE Coprocessador_controle.bdf
+set_global_assignment -name BDF_FILE Coprocessador_Arithmetic_Unit.bdf
+set_global_assignment -name QIP_FILE lpm_divide0.qip
+set_global_assignment -name BDF_FILE Shift_right_arithmetic.bdf
+set_global_assignment -name BDF_FILE Mux_2_5bits.bdf
+set_global_assignment -name BDF_FILE Mux_4_5bits.bdf
+set_global_assignment -name QIP_FILE lpm_constant0.qip
+set_global_assignment -name QIP_FILE lpm_constant1.qip
+set_global_assignment -name QIP_FILE lpm_constant2.qip
+set_global_assignment -name QIP_FILE lpm_constant3.qip
+set_global_assignment -name QIP_FILE RAM.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Gustavo/Desktop/MIPS_Multiciclo/teste_MIPS_Multiciclo.vwf"

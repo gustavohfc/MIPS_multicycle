@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="MIPS_Multiciclo">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_mult0:inst|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_mult0:inst|lpm_mult:lpm_mult_component|mult_gcn:auto_generated|alt_mac_out:mac_out4" CBX_FILE_NAME="mac_out_kv82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_mult0:inst|lpm_mult:lpm_mult_component|mult_gcn:auto_generated|alt_mac_out:mac_out8" CBX_FILE_NAME="mac_out_uv82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_mult0:inst|lpm_mult:lpm_mult_component|mult_gcn:auto_generated|alt_mac_mult:mac_mult1" CBX_FILE_NAME="mac_mult_33h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_mult0:inst|lpm_mult:lpm_mult_component|mult_gcn:auto_generated|alt_mac_mult:mac_mult3" CBX_FILE_NAME="mac_mult_58h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_mult0:inst|lpm_mult:lpm_mult_component|mult_gcn:auto_generated|alt_mac_mult:mac_mult5" CBX_FILE_NAME="mac_mult_68h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_mult0:inst|lpm_mult:lpm_mult_component|mult_gcn:auto_generated|alt_mac_mult:mac_mult7" CBX_FILE_NAME="mac_mult_gdh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Memoria:inst2|RAM:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0rj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_divide0:inst5|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_ges.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_mult0:inst|lpm_mult:lpm_mult_component|mult_gcn:auto_generated|alt_mac_out:mac_out2" CBX_FILE_NAME="mac_out_sv82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|Coprocessador:inst19|Coprocessador_Arithmetic_Unit:in|lpm_mult0:inst|lpm_mult:lpm_mult_component|mult_gcn:auto_generated|alt_mac_out:mac_out6" CBX_FILE_NAME="mac_out_kv82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MIPS_Multiciclo|lpm_constant0:Const_RA_register|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_eh6.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
